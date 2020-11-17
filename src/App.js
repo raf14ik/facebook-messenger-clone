@@ -4,8 +4,9 @@ import { Button, FormControl, Input, InputLabel} from '@material-ui/core';
 import Message from './Message';
 
 function App() {
-  const [input, setInput] =useState('');
-  const [messages, setMessages] =useState([]);
+  const [input, setInput] = useState('');
+  const [messages, setMessages] = useState([]);
+  const [username, setUsername] = useState('');
 
   console.log(input);
   console.log(messages);
